@@ -114,7 +114,7 @@ public class Test {
 //        System.out.println(isTableExist("wsnd"));
         addRowData("wsnd","1002","info1","name","wqc");
         getData("wsnd","1002","info1","name");
-
+        system.out.println("lrh");
         close();
 
     }
