@@ -108,12 +108,12 @@ public class Test {
 
     }
     public static void main(String[] args) throws IOException {
-//        System.out.println(isTableExist("wsnd"));
+        System.out.println(isTableExist("wsnd"));
 //        createTable("wsnd","info1","info2");
 //        dropTable("wsnd");
 //        System.out.println(isTableExist("wsnd"));
-//        addRowData("wsnd","1001","info1","dick","18cm");
-        getData("wsnd","1001","info1","name");
+        addRowData("wsnd","1002","info1","name","wqc");
+        getData("wsnd","1002","info1","name");
 
         close();
 
